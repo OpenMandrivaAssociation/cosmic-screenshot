@@ -3,7 +3,7 @@
 %define         appname com.system76.CosmicScreenshot
 Name:           cosmic-screenshot
 Version:        1.0.0
-%define beta beta.5
+%define beta beta.6
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Utility for capturing screenshots via XDG Desktop Portal
 Group:          Utility/COSMIC
