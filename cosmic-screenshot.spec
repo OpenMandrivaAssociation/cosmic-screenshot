@@ -2,8 +2,8 @@
 
 %define         appname com.system76.CosmicScreenshot
 Name:           cosmic-screenshot
-Version:        1.0.0
-%define beta beta.7
+Version:        1.0.2
+#define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Utility for capturing screenshots via XDG Desktop Portal
 Group:          Utility/COSMIC
@@ -16,6 +16,7 @@ Source2:        cargo_config
 BuildRequires:  rust-packaging
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  just
+BuildRequires:  make
 
 %description
 %{summary}.
